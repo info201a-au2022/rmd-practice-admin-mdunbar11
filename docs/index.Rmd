@@ -1,7 +1,7 @@
 ---
 title: "Example Covid Report"
 author: "INFO-201: Class Demo"
-date: "2/7/2022"
+date: "11/7/2022"
 output: html_document
 ---
 
@@ -11,9 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Covid Report
-I write a paragraph here. I will highlight that the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. 
+The COVID-19 pandemic has affected the world in so many ways. It has brought stress, sickness, and even death. Staying safe became a huge adjustment for most people as it meant wearing masks, staying in quarantine for months on end, and ordering our groceries to our homes. It was and still is a serious time. Today, the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. Although spikes are plateauing and case numbers aren't as high, we still must get vaccinated, stay on top of our booster shots, and stay home if we are sick.
 
-(**Note**: Why are there no commas in the *total number of US deaths* ? Can you change `analysis.R` file so that the number is commented with commas?)
 
 I also want to show the chart:
 ``` {r echo=FALSE}
